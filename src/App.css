@@ -1,0 +1,87 @@
+
+h2{
+
+  text-align: center;
+}
+
+body {
+  
+  background-image: url(SCREEN\ -\ Intro-Limitless-Part\ A\ 014.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+  margin: 0;
+}
+
+
+.travel-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #451313;
+  border-radius: 8px;
+  backdrop-filter: blur(100px); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-items: center;
+  margin-bottom: 10px;
+  display:block;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #451313;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  
+}
+.Excel {
+  background-image: url(SmallLogo.jfif);
+  background-size: 60px 55px; 
+  background-repeat: no-repeat; 
+  text-align: center;
+  background-color: RGBA(14, 56, 55, 1);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Excelbutton{
+  
+  text-align: center;
+  background-color: RGBA(14, 56, 55, 1);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
